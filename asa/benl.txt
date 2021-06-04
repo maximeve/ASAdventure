@@ -1,0 +1,89 @@
+Is onze nieuwsbrief niet goed leesbaar? Bekijk hier de online versie :
+<%@ include view='rc_be_asadventure_personalization_mirror_page' %>
+
+++++++++++++++
+A.S.Adventure
+++++++++++++++
+
+——————————————
+Je nieuwe strandma(a)tje van Roxy
+——————————————
+
+Nieuwtje voor wie een dagje Belgische kust of chillings in eigen tuin op de planning heeft. Koop voor € 50 euro zwemkleding, wij trakteren op een gratis Roxy-strandmatje!
+Dames >>
+https://www.asadventure.com/nl/c/promoties/zwemkleding.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528dames%253Bheren_dames_junior%253Bheren_dames%2529
+
+Heren >>
+https://www.asadventure.com/nl/c/promoties/zwemkleding.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528heren_dames_junior%253Bheren_dames%253Bheren%2529
+
+Kids >>
+https://www.asadventure.com/nl/c/promoties/zwemkleding.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528junior%253Bjongens%253Bheren_dames_junior%253Bmeisjes%2529
+
+Actie geldig t.e.m. 30/05/2021, zolang de voorraad strekt. Niet geldig op strandkleding en -accessoires. Niet cumuleerbaar met andere acties.
+
+——————————————
+Straal als de zomerzon
+——————————————
+
+Met je Roxy-strandmatje onder de arm voel je de beach vibes kriebelen. Sla nog snel een bijpassende outfit aan de haak en laat je overspoelen door de zomerzon!
+
+Looks dames >>https://www.asadventure.com/nl/lookbook/overview-dames/bay-beach-dames.html
+Looks heren >>https://www.asadventure.com/nl/lookbook/overview-heren/bay-beach-heren.html
+
+——————————————
+Als visje(s) in het water
+——————————————
+
+Bommetje! Een badpak in de wildste kleuren en zwembroekjes met zomerse prints, een hippe zonnehoed, een dot zonnecrème op de neus en hup, die kids van je zijn helemaal klaar voor de zomer. 
+
+Looks kids >>https://www.asadventure.com/nl/lookbook/overview-kids/bay-beach-kids.html
+
+——————————————
+Roxy: release your inner beach babe
+——————————————
+
+Sportief met een stoer randje.
+
+Get to know Roxy >>
+https://www.asadventure.com/nl/merken/roxy.html
+
+
+Zeg papa dat je van hem hou(d)t
+Wééral een parfum? Move over Hugo Boss, hello real life bos! Verlaat de geasfalteerde paden op Vaderdag, richting het groen. Met een A.S.Adventure-cadeaubon!
+
+Shop je cadeaubon >>https://www.asadventure.com/nl/asa/cadeaucheques.html
+
+——————————————
+De zomer aan je voeten
+——————————————
+
+Vertoef deze zomer in Braziliaanse sferen met een paar Havaianas aan je voeten! Duurzame, flexibele slippers in alle kleuren die je kan dromen. 
+
+Jouw Havaianas >>
+https://www.asadventure.com/nl/merken/havaianas.html  
+
+——————————————
+Shoppingadvies voor de zomer
+——————————————
+
+De zomer staat voor de deur, maar je hebt nog niet de juiste bikini of zwembroek gevonden? Ons team weet raad! Boek je gratis personal shopping sessie, online of in de winkel. 
+
+Maak nu je afspraak >>
+https://www.asadventure.com/nl/personal-shopping.html 
+
+
+——————————————
+En dan nu: plonzen maar!
+——————————————
+
+Badpakken
+https://www.asadventure.com/nl/c/dames/badmode/badpakken.html
+
+Bikini’s
+https://www.asadventure.com/nl/c/dames/badmode/bikinis.html
+
+Zwemshorts
+https://www.asadventure.com/nl/c/heren/badmode/zwemshorts.html
+
+
+<%@ include view='rc_be_marketing_footernew_benl' %>

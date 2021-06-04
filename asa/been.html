@@ -1,0 +1,868 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings></xml><![endif]-->
+    <!--[if gte mso 9]><style>li { text-indent: -1em; /* Normalise space between bullets and text */}</style><![endif]-->
+    <title>A.S.Adventure</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="Shortcut Icon" type="image/x-icon" href="https://www.asadventure.com/etc/designs/asadventure/clientlibs/favicon/favicon.ico">
+    <style>
+        /* ---------- RESET ---------- */
+
+        * {
+            line-height: 100%;
+            -webkit-font-smoothing: antialiased !important;
+            -moz-osx-font-smoothing: grayscale !important;
+        }
+
+        p,
+        a,
+        li,
+        td,
+        blockquote {
+            mso-line-height-rule: exactly;
+        }
+
+        a[href^=tel],
+        a[href^=sms] {
+            color: inherit;
+            cursor: default;
+            text-decoration: none;
+        }
+
+        p,
+        a,
+        li,
+        td,
+        body,
+        table,
+        blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass td,
+        .ExternalClass div,
+        .ExternalClass span,
+        .ExternalClass font {
+            line-height: 100%;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        input {
+            display: none;
+        }
+
+        v\:* {
+            behavior: url(#default#VML);
+            display: inline-block;
+        }
+
+        .appleLinks a {
+            color: #313131 !important;
+            font-weight: normal !important;
+        }
+
+        /* ---------- HOVER STATE ---------- */
+
+        .cta,
+        .cta a {
+            transition: All .3s ease !important;
+            -webkit-transition: All .3s ease !important;
+            -moz-transition: All .3s ease !important;
+            -o-transition: All .3s ease !important;
+        }
+
+        /*.cta:hover {
+    background-color: #ebebeb !important;
+  }
+
+  .cta:hover a {
+    color: #ff9600 !important;
+  }*/
+
+        @media (max-width:480px) {
+            /* ---------- HELPERS ---------- */
+            .width_mobile {
+                width: 100% !important;
+                height: auto !important;
+                float: left !important;
+                padding: 0 !important;
+            }
+            .width_mobile_50 {
+                width: 50% !important;
+                height: auto !important;
+                float: left !important;
+                padding: 0 !important;
+            }
+            .width_mobile_33 {
+                width: 33.333333% !important;
+                height: auto !important;
+                padding: 0 !important;
+            }
+            .hide_mobile {
+                display: none !important;
+                line-height: 0px !important;
+                font-size: 0px !important;
+            }
+            .show_mobile {
+                display: block !important;
+                overflow: visible !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+                max-height: inherit !important;
+                max-width: 100% !important;
+            }
+            .no_padding {
+                padding: 0 !important;
+            }
+            .no_border {
+                border: none !important;
+            }
+            .no_height {
+                height: auto !important;
+            }
+            .center {
+                margin: 0 auto !important;
+                text-align: center !important;
+            }
+            .border-top {
+                border-top: 1px solid #363636 !important;
+            }
+            .border-bottom {
+                border-bottom: 1px solid #363636 !important;
+            }
+            /* ---------- ELEMENTS ---------- */
+            .cta {
+                padding: 0 !important;
+                height: 40px !important;
+                line-height: 40px !important;
+                text-align: center !important;
+            }
+            .cta a {
+                color: #424242 !important;
+                text-decoration: none !important;
+            }
+            /* ---------- FONTS ---------- */
+            .fontS {
+                font-size: 12px !important;
+                line-height: 16px !important;
+            }
+            .fontM {
+                font-size: 14px !important;
+                line-height: 19px !important;
+            }
+            .fontL {
+                font-size: 22px !important;
+                line-height: 27px !important;
+            }
+            .fontXL {
+                font-size: 30px !important;
+                line-height: 36px !important;
+            }
+            /*---------- SPACING ---------- */
+            .pt-0,
+            .py-0 {
+                padding-top: 0 !important
+            }
+            .pr-0,
+            .px-0 {
+                padding-right: 0 !important
+            }
+            .pb-0,
+            .py-0 {
+                padding-bottom: 0 !important
+            }
+            .pl-0,
+            .px-0 {
+                padding-left: 0 !important
+            }
+            .p-1 {
+                padding: 4px !important
+            }
+            .pt-1,
+            .py-1 {
+                padding-top: 4px !important
+            }
+            .pr-1,
+            .px-1 {
+                padding-right: 4px !important
+            }
+            .pb-1,
+            .py-1 {
+                padding-bottom: 4px !important
+            }
+            .pl-1,
+            .px-1 {
+                padding-left: 4px !important
+            }
+            .p-2 {
+                padding: 8px !important
+            }
+            .pt-2,
+            .py-2 {
+                padding-top: 8px !important
+            }
+            .pr-2,
+            .px-2 {
+                padding-right: 8px !important
+            }
+            .pb-2,
+            .py-2 {
+                padding-bottom: 8px !important
+            }
+            .pl-2,
+            .px-2 {
+                padding-left: 8px !important
+            }
+            .p-3 {
+                padding: 16px !important
+            }
+            .pt-3,
+            .py-3 {
+                padding-top: 16px !important
+            }
+            .pr-3,
+            .px-3 {
+                padding-right: 16px !important
+            }
+            .pb-3,
+            .py-3 {
+                padding-bottom: 16px !important
+            }
+            .pl-3,
+            .px-3 {
+                padding-left: 16px !important
+            }
+            .p-4 {
+                padding: 24px !important
+            }
+            .pt-4,
+            .py-4 {
+                padding-top: 24px !important
+            }
+            .pr-4,
+            .px-4 {
+                padding-right: 24px !important
+            }
+            .pb-4,
+            .py-4 {
+                padding-bottom: 24px !important
+            }
+            .pl-4,
+            .px-4 {
+                padding-left: 24px !important
+            }
+            /* ---------- A.S. SPECIFIC ---------- */
+            .feedback {
+                float: left !important;
+                padding: 0 20% !important;
+                width: 60% !important;
+            }
+        }
+    </style>
+</head>
+
+<body bgcolor="#ffffff" link="#000001" alink="#000001" vlink="#000001" yahoo>
+    <!-- ////////////////////////// PREVIEW TEXT ////////////////////////// -->
+    <div style="display: none; font-size: 1px; color: #ffffff; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">Free Roxy beach mat, summer looks, and more</div>
+    <div style="display: none; max-height: 0px; overflow: hidden;">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;</div>
+    <!-- ///////////////////////////// WRAPPER //////////////////////////// -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+        <tr>
+            <td align="center" style="padding:20px 0" class="p-2">
+                <table align="center" width="640" style="width:640px;" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" class="width_mobile">
+                    <tr>
+                        <td style="padding:0 20px;" class="px-2">
+                            <!-- ================ HEADER ================ -->
+
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" class="header">
+                                <tr>
+                                    <td align="center">
+                                        <table cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="right" valign="top" style="padding: 0 20px 0 0" class="width_mobile">
+                                                    <a href="https://www.asadventure.com/en.html" _label="header_header_all_nvt_nvt" target="_blank" title="A.S.Adventure">
+                                                        <img src="http://t.update.asadventure.com/res/img/95A870B9E2861BC4A3DCB92D3FABA536.png" width="115" alt="A.S.Adventure" style="width:115px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FF6900; text-align:center;"
+                                                            class="logo center pr-2"> </a>
+                                                </td>
+                                                <td style="font-size: 20px; line-height: 25px;" class="title no_border py-1 pl-2">
+                                                    <a style="font-family:Helvetica-light,Helvetica,Arial, sans-serif; font-size: 20px; line-height: 25px; text-decoration: none; color: #3b4345;" href="https://www.asadventure.com/en.html" target="_blank"
+                                                        _label="header_header_all_nvt_nvt">
+                                                        <span style="color:#505050">EXPLORE</span>
+                                                        <span style="font-weight: bold;line-height: 28px;">MORE</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- =========== BLANK SEPERATOR ============= -->
+
+                            <table style="width:100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td style="font-family:serif;font-size:1px;line-height:1px;padding: 20px 0 0;" class="py-2">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                            <!-- ======================================== -->
+                            <!-- ================= RIJ 1 =============== -->
+
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td class="width_mobile">
+                                        <a href="https://www.asadventure.com/en/c/promotions/swimwear.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528dames%253Bheren%253Bjongens%253Bmeisjes%2529" _label="rij1_zwemkleding_badmode_actie_unisex" target="_blank">
+                                            <img src="images/rij1_eng.jpg" width="600" alt="Roxy-strandmatje" style="width:600px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#3b4345;" class="width_mobile">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="100%" align="center" style="font-size: 30px; line-height: 36px; padding: 20px 0 0;" class="pt-2 pb-0 px-0">
+                                        <a href="https://www.asadventure.com/en/c/promotions/swimwear.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528dames%253Bheren%253Bjongens%253Bmeisjes%2529" _label="rij1_zwemkleding_badmode_actie_unisex" target="_blank" style="text-decoration: none; font-family: Georgia, serif; font-size: 30px; line-height: 36px; color: #3b4345;" class="fontL">Your new Roxy beach mat(e)</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 14px; line-height: 18px; padding: 30px 0 0" class="pt-3 pb-0 px-0">
+                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/c/promotions/swimwear.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528dames%253Bheren%253Bjongens%253Bmeisjes%2529" _label="rij1_zwemkleding_badmode_actie_unisex" target="_blank">We&rsquo;ve got something new for those of you planning a day at the Belgian coast or chilling out in your own garden. Buy <span style="font-weight: bold; line-height: 18px;">&euro;50 worth of swimwear</span> and we&rsquo;ll treat you to a free <span style="font-weight: bold; line-height: 18px;">Roxy beach mat</span>!
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding: 40px 40px 0;" class="pt-4 pb-0 px-0">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="center" valign="middle" class="width_mobile pb-1">
+                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                        <tr>
+                                                            <td align="center" valign="middle" width="160" height="40" style="height:40px; font-size: 14px; line-height: 18px;" bgcolor="#e1a465">
+                                                                <a href="https://www.asadventure.com/en/c/promotions/swimwear.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528dames%2529" _label="rij1_zwemkleding_badmode_actie_dms" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration:none; color:#ffffff;">Women </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td width="20" height="20" style="width:20px;height:20px;font-family:serif;font-size:1px;line-height:1px;" class="width_mobile">&nbsp;</td>
+                                                <td align="center" valign="middle" class="width_mobile pb-1">
+                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                        <tr>
+                                                            <td align="center" valign="middle" width="160" height="40" style="height:40px; font-size: 14px; line-height: 18px;" bgcolor="#e1a465">
+                                                                <a href="https://www.asadventure.com/en/c/promotions/swimwear.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528heren%2529" _label="rij1_zwemkleding_badmode_actie_hrn" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration:none; color:#ffffff;">Men </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-style:italic;font-size: 12px; line-height: 14px; padding: 30px 0 0" class="pt-3 pb-0 px-0">
+                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 14px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/c/promotions/swimwear.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528dames%253Bheren%253Bjongens%253Bmeisjes%2529" _label="rij1_zwemkleding_badmode_actie_unisex" target="_blank">*Action valid through 30/05/2021, while supplies last. Not valid on beachwear and accessories. May not be combined with other actions.</a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- *************** SEPERATOR ************** -->
+
+                            <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td valign="middle" height="100" class="width_mobile py-4" style="height: 100px;font-family:serif;font-size: 0px; line-height: 0px;">
+                                        <p style="height: 1px;border-bottom:1px solid #e0e3e4;">&nbsp;</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- ================= RIJ 2 =============== -->
+
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td class="width_mobile">
+                                        <a href="https://www.asadventure.com/en/lookbook/overview-dames/bay-beach-women.html" _label="rij2_bayandbeach_badmode_lb_unisex" target="_blank">
+                                            <img src="images/rij2.jpg" width="600" alt="Lookbook" style="width:600px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#3b4345;" class="width_mobile">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding: 40px 0 0;" class="pt-3 pb-0 px-0">
+                                        <a href="https://www.asadventure.com/en/lookbook/overview-dames/bay-beach-women.html" _label="rij2_bayandbeach_badmode_lb_unisex" target="_blank">
+                                            <img src="images/icon_lookbook.png" width="150" alt="Lookbook" style="width:150px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#3b4345;" class="center">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 12px; line-height: 15px; padding: 5px 0 0;" class="pt-1 pb-0">
+                                        <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; line-height: 15px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/lookbook/overview-dames/bay-beach-women.html" _label="rij2_bayandbeach_badmode_lb_unisex" target="_blank" class="fontS">LOOKBOOK</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="100%" align="center" style="font-size: 30px; line-height: 36px; padding: 5px 0 0;" class="pt-2 pb-0 px-0">
+                                        <a href="https://www.asadventure.com/en/lookbook/overview-dames/bay-beach-women.html" _label="rij2_bayandbeach_badmode_lb_unisex" target="_blank" style="text-decoration: none; font-family: Georgia, serif; font-size: 30px; line-height: 36px; color: #3b4345;"
+                                            class="fontL">Shine like the summer sun</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 14px; line-height: 18px; padding: 30px 0 0" class="pt-3 pb-0 px-0">
+                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/lookbook/overview-dames/bay-beach-women.html" _label="rij2_bayandbeach_badmode_lb_unisex" target="_blank">With your Roxy beach mat under your arm, you can just feel the beach vibes radiate through you. Get yourself a matching outfit and let the summer sun shine down on you!</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding: 40px 40px 0;" class="pt-4 pb-0 px-0">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="center" valign="middle" class="width_mobile pb-1">
+                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                        <tr>
+                                                            <td align="center" valign="middle" width="160" height="40" style="height:40px; font-size: 14px; line-height: 18px;" bgcolor="#e1a465">
+                                                                <a href="https://www.asadventure.com/en/lookbook/overview-dames/bay-beach-women.html" _label="rij2cta_bayandbeach_badmode_lb_dms" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration:none; color:#ffffff;">Looks women</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td width="20" height="20" style="width:20px;height:20px;font-family:serif;font-size:1px;line-height:1px;" class="width_mobile">&nbsp;</td>
+                                                <td align="center" valign="middle" class="width_mobile">
+                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                        <tr>
+                                                            <td align="center" valign="middle" width="160" height="40" style="height:40px; font-size: 14px; line-height: 18px;" bgcolor="#e1a465">
+                                                                <a href="https://www.asadventure.com/en/lookbook/overview-heren/bay-beach-men.html" _label="rij2cta_bayandbeach_badmode_lb_hrn" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration:none; color:#ffffff;">Looks men</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- *************** SEPERATOR ************** -->
+
+                            <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td valign="middle" height="100" class="width_mobile py-4" style="height: 100px;font-family:serif;font-size: 0px; line-height: 0px;">
+                                        <p style="height: 1px;border-bottom:1px solid #e0e3e4;">&nbsp;</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <% if ( targetData.segmentcode_junior === "junior" ){%>
+                            <!-- ================= RIJ 3 =============== -->
+
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td class="width_mobile">
+                                        <a href="https://www.asadventure.com/en/lookbook/overview-kids/bay-beach-kids.html" _label="rij3_bayandbeach_badmode_lb_jr" target="_blank">
+                                            <img src="images/rij3.jpg" width="600" alt="Lookbook" style="width:600px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#3b4345;" class="width_mobile">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding: 40px 0 0;" class="pt-3 pb-0 px-0">
+                                        <a href="https://www.asadventure.com/en/lookbook/overview-kids/bay-beach-kids.html" _label="rij3_bayandbeach_badmode_lb_jr" target="_blank">
+                                            <img src="images/icon_lookbook.png" width="150" alt="Lookbook" style="width:150px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#3b4345;" class="center">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 12px; line-height: 15px; padding: 5px 0 0;" class="pt-1 pb-0">
+                                        <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; line-height: 15px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/lookbook/overview-kids/bay-beach-kids.html"
+                                            _label="rij3_bayandbeach_badmode_lb_jr" target="_blank" class="fontS">LOOKBOOK</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="100%" align="center" style="font-size: 30px; line-height: 36px; padding: 5px 0 0;" class="pt-2 pb-0 px-0">
+                                        <a href="https://www.asadventure.com/en/lookbook/overview-kids/bay-beach-kids.html" _label="rij3_bayandbeach_badmode_lb_jr" target="_blank" style="text-decoration: none; font-family: Georgia, serif; font-size: 30px; line-height: 36px; color: #3b4345;"
+                                            class="fontL">Like a fish in water</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 14px; line-height: 18px; padding: 30px 0 0" class="pt-3 pb-0 px-0">
+                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/lookbook/overview-kids/bay-beach-kids.html"
+                                            _label="rij3_bayandbeach_badmode_lb_jr" target="_blank">Cannon ball! A swimsuit in the wildest of colours and swim trunks with summery prints, a trendy sun hat, a dollop of sunscreen on the nose, and presto! Your kids are ready for summer. </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td align="center" style="padding:40px 150px 0;" class="pt-4 pb-0 px-0">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="center" valign="middle" width="100%" height="40" style="height:40px; font-size: 14px; line-height: 18px;" bgcolor="#e1a465" class="width_mobile">
+                                                    <a href="https://www.asadventure.com/en/lookbook/overview-kids/bay-beach-kids.html" _label="rij3_bayandbeach_badmode_lb_jr" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration:none; color:#ffffff;"
+                                                        class="cta">Looks for kids</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- *************** SEPERATOR ************** -->
+
+                            <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td valign="middle" height="100" class="width_mobile py-4" style="height: 100px;font-family:serif;font-size: 0px; line-height: 0px;">
+                                        <p style="height: 1px;border-bottom:1px solid #e0e3e4;">&nbsp;</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <%}else{%><%}%>
+                            <!-- ================= RIJ 4 =============== -->
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td class="width_mobile">
+                                        <a href="https://www.asadventure.com/en/brands/havaianas.html" _label="rij4_havaianas_badmode_prod-mi_unisex" target="_blank">
+                                            <img src="images/rij6.jpg" width="600" alt="BRAND IN THE SPOTLIGHT" style="width:600px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#3b4345;" class="width_mobile">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding: 30px 0 0;" class="pt-3 pb-0 px-0">
+                                        <a href="https://www.asadventure.com/en/brands/havaianas.html" _label="rij4_havaianas_badmode_prod-mi_unisex" target="_blank">
+                                            <img src="images/icon_merkindekijker.png" width="150" alt="BRAND IN THE SPOTLIGHT " style="width:150px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#3b4345;">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 12px; line-height: 15px; padding: 5px 0 0;" class="pt-1 pb-0">
+                                        <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; line-height: 15px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/brands/havaianas.html" _label="rij4_havaianas_badmode_prod-mi_unisex"
+                                            target="_blank" class="fontS">BRAND IN THE SPOTLIGHT </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="100%" align="center" style="font-size: 24px; line-height: 28px; padding: 5px 0 20px;" class="pt-2 pb-0 px-0">
+                                        <a href="https://www.asadventure.com/en/brands/havaianas.html" _label="rij4_havaianas_badmode_prod-mi_unisex" target="_blank" style="text-decoration: none; font-family: Georgia, serif; font-size: 24px; line-height: 28px; color: #3b4345;"
+                                            class="fontL">Summer on your feet</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 14px; line-height: 18px; padding: 0;" class="pt-2 pb-0 px-0">
+                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/brands/havaianas.html" _label="rij4_havaianas_badmode_prod-mi_unisex"
+                                            target="_blank">Get into the Brazilian spirit this summer with a pair of Havaianas on your feet! Durable, flexible slippers in every colour you can imagine. </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td align="center" style="padding:40px 150px 0;" class="pt-4 pb-0 px-0">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="center" valign="middle" width="100%" height="40" style="height:40px; font-size: 14px; line-height: 18px;" bgcolor="#e1a465" class="width_mobile">
+                                                    <a href="https://www.asadventure.com/en/brands/havaianas.html" _label="rij4cta_havaianas_badmode_prod-mi_unisex" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration:none; color:#ffffff;"
+                                                        class="cta">Your Havaianas </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- *************** SEPERATOR ************** -->
+
+                            <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td valign="middle" height="100" class="width_mobile py-4" style="height: 100px;font-family:serif;font-size: 0px; line-height: 0px;">
+                                        <p style="height: 1px;border-bottom:1px solid #e0e3e4;">&nbsp;</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- ================= RIJ 3 =============== -->
+
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td class="width_mobile">
+                                        <a href="https://www.asadventure.com/en/asa/gift-cards.html" _label="rij5_cadeaucheques_cadeaucheques_prod_unisex" target="_blank">
+                                            <img src="images/rij5.jpg" width="600" alt="GIFT VOUCHER" style="width:600px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#3b4345;" class="width_mobile">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 12px; line-height: 15px; padding: 20px 0 0;" class="pt-3 pb-0">
+                                        <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; line-height: 15px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/asa/gift-cards.html" _label="rij5_cadeaucheques_cadeaucheques_prod_unisex"
+                                            target="_blank" class="fontS">GIFT VOUCHER</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="100%" align="center" style="font-size: 24px; line-height: 28px; padding: 5px 0 0;" class="pt-2 pb-0 px-0">
+                                        <a href="https://www.asadventure.com/en/asa/gift-cards.html" _label="rij5_cadeaucheques_cadeaucheques_prod_unisex" target="_blank" style="text-decoration: none; font-family: Georgia, serif; font-size: 24px; line-height: 28px; color: #3b4345;"
+                                            class="fontL">Show your father you love him</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 14px; line-height: 18px; padding: 20px 0 0" class="pt-3 pb-0 px-0">
+                                        <a style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/asa/gift-cards.html" _label="rij5_cadeaucheques_cadeaucheques_prod_unisex"
+                                            target="_blank">A perfume yet again? Move over Hugo Boss, hello real life forest! On Father&rsquo;s Day, leave the paved paths and head for the greenery. With an A.S.Adventure gift voucher!</a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td align="center" style="padding:40px 150px 0;" class="pt-4 pb-0 px-0">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="center" valign="middle" width="100%" height="40" style="height:40px; font-size: 14px; line-height: 18px;" bgcolor="#e1a465" class="width_mobile">
+                                                    <a href="https://www.asadventure.com/en/asa/gift-cards.html" _label="rij5cta_cadeaucheques_cadeaucheques_prod_unisex" target="_blank" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration:none; color:#ffffff;"
+                                                        class="cta">Shop your gift voucher</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- *************** SEPERATOR ************** -->
+
+                            <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td valign="middle" height="100" class="width_mobile py-4" style="height: 100px;font-family:serif;font-size: 0px; line-height: 0px;">
+                                        <p style="height: 1px;border-bottom:1px solid #e0e3e4;">&nbsp;</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- ================= RIJ 5 =============== -->
+                            <!-- ================= RIJ 4 =============== -->
+
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <!-- ************ Desktop  image ************ -->
+                                    <td style="padding:0;" class="hide_mobile">
+                                        <table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td style="height: 300px; color: #3b4345; padding: 5px 0 0;">
+                                                    <a href="https://www.asadventure.com/en/brands/roxy.html" _label="rij6_roxy_badmode_merk-mi_unisex" target="_blank">
+                                                        <img src="images/rij12.jpg" width="300" height="300" alt="MERK IN DE KIJKER" style="width:300px;height:300px;display:block; background-color:#ebebeb; border:0;">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td valign="top" width="50%" style="padding: 0 30px;" class="width_mobile">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <!-- ********** Mobile image ********** -->
+                                            <!--[if !mso 9]><!-->
+                                            <tr>
+                                                <td class="show_mobile" style="display:none; font-size:0; line-height:0; mso-hide: all; max-height: 0; max-width: 0; width:0;">
+                                                    <a href="https://www.asadventure.com/en/brands/roxy.html" _label="rij6_roxy_badmode_merk-mi_unisex" target="_blank">
+                                                        <img class="width_mobile" style="display: block; border: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000000; background-color: #ca9960;" alt="MERK IN DE KIJKER" src="images/rij12.jpg"
+                                                        />
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <!--<![endif]-->
+                                            <tr>
+                                                <td align="center" style="padding: 20px 0 0;" class="pt-3 pb-0 px-0">
+                                                    <a href="https://www.asadventure.com/en/brands/roxy.html" _label="rij6_roxy_badmode_merk-mi_unisex" target="_blank">
+                                                        <img src="images/icon_merkindekijker.png" width="150" alt="BRAND IN THE SPOTLIGHT " style="width:150px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#3b4345;">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-size: 12px; line-height: 15px; padding: 5px 0 0;" class="pt-1 pb-0">
+                                                    <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; line-height: 15px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/brands/roxy.html" _label="rij6_roxy_badmode_merk-mi_unisex" target="_blank"
+                                                        class="fontS">BRAND IN THE SPOTLIGHT </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" align="center" style="font-size: 24px; line-height: 28px; padding: 5px 0 20px;" class="pt-2 pb-0 px-0">
+                                                    <a href="https://www.asadventure.com/en/brands/roxy.html" _label="rij6_roxy_badmode_merk-mi_unisex" target="_blank" style="text-decoration: none; font-family: Georgia, serif; font-size: 24px; line-height: 28px; color: #3b4345;" class="fontL">Roxy: release your inner beach babe</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-size: 14px; line-height: 18px; padding: 0;" class="pt-3 pb-0 px-0">
+                                                    <a style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/brands/roxy.html" _label="rij6_roxy_badmode_merk-mi_unisex" target="_blank">Roxy, that's: confident, naturally beautiful, fun. Once started as a surf brand for women, it is now a fixture in the wardrobes of girls with a tough edge and their mums!</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="font-size: 14px; line-height: 18px; padding: 30px 0 0;" class="pt-3 pb-0 center">
+                                                    <a style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; line-height: 18px; color: #838e92; font-weight: bold;" href="https://www.asadventure.com/en/brands/roxy.html" _label="rij6cta_roxy_badmode_merk-mi_unisex"
+                                                        target="_blank">Get to know Roxy&nbsp;&gt;</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- *************** SEPERATOR ************** -->
+
+                            <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td valign="middle" height="100" class="width_mobile py-4" style="height: 100px;font-family:serif;font-size: 0px; line-height: 0px;">
+                                        <p style="height: 1px;border-bottom:1px solid #e0e3e4;">&nbsp;</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- ================= RIJ 16 =============== -->
+
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <!-- ************ Desktop  image ************ -->
+                                    <td style="padding: 0 20px;" class="hide_mobile">
+                                        <table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td align="center" bgcolor="#e3974b" style="width:100%">
+                                                    <a href="https://www.asadventure.com/en/personal-shopping.html" _label="rij7_personalshopping_nvt_info_nvt" target="_blank">
+                                                        <img src="images/ps1.jpg" width="100%" alt="Personal shopping" style="display:block; border:0;"> </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td valign="middel" width="66%" style="padding: 0 15px;" class="width_mobile">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <!-- ********** Mobile image ********** -->
+                                            <!--[if !mso 9]><!-->
+                                            <tr>
+                                                <td class="show_mobile" style="display:none; font-size:0; line-height:0; mso-hide: all; max-height: 0; max-width: 0; width:0;">
+                                                    <a href="https://www.asadventure.com/en/personal-shopping.html" _label="rij7_personalshopping_nvt_info_nvt" target="_blank">
+                                                        <img class="width_mobile" style="display: block; border: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000000; background-color: #e3974b;" alt="Personal shopping" src="images/ps2.jpg"
+                                                        /> </a>
+                                                </td>
+                                            </tr>
+                                            <!--<![endif]-->
+                                            <tr>
+                                                <td style="font-size: 12px; line-height: 15px; padding: 5px 0 0;" class="pt-3 pb-0 center">
+                                                    <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; line-height: 15px; text-decoration: none; color: #3b4345;" href="https://www.asadventure.com/en/personal-shopping.html" _label="rij7_personalshopping_nvt_info_nvt"
+                                                        target="_blank" class="fontS">PERSONAL SHOPPING</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 24px; line-height: 28px; padding: 5px 0 0;" class="pt-1 pb-0 center">
+                                                    <a style="font-family: Georgia, serif; font-size: 24px; line-height: 28px; text-decoration: none; color: #3b4345;" href="https://www.asadventure.com/en/personal-shopping.html" _label="rij7_personalshopping_nvt_info_nvt"
+                                                        target="_blank" class="fontL">Shopping advice for the summer</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 14px; line-height: 20px; padding: 20px 0 0;" class="pt-3 pb-0 px-0 center">
+                                                    <a style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; line-height: 20px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/personal-shopping.html" _label="rij7_personalshopping_nvt_info_nvt"
+                                                        target="_blank">Summer&rsquo;s around the corner; are you having trouble finding the right bikini or swimsuit? Our team knows what to do! Book your free personal shopping session, online or in the store. </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" style="font-size: 14px; line-height: 18px; padding: 30px 0 0;" class="pt-3 pb-0 center">
+                                                    <a style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; line-height: 18px; color: #838e92; font-weight: bold;" href="https://www.asadventure.com/en/personal-shopping.html" _label="rij7cta_personalshopping_nvt_info_nvt"
+                                                        target="_blank">Book your session now&nbsp;&gt;</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- *************** SEPERATOR ************** -->
+
+                            <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td valign="middle" height="100" class="width_mobile py-4" style="height: 100px;font-family:serif;font-size: 0px; line-height: 0px;">
+                                        <p style="height: 1px;border-bottom:1px solid #e0e3e4;">&nbsp;</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- ================ RIJ 21 ================ -->
+
+                            <table style="width:100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td align="center" style="padding: 0px 0 0;" class="pt-3 pb-0 px-0">
+                                        <a href="https://www.asadventure.com/en/c/women/beachwear/swimsuits.html" _label="rij8_badpakken_badmode_prodcat_dms" target="_blank">
+                                            <img src="images/icon_productindekijker.png" width="150" alt="PRODUCTEN IN DE KIJKER" style="width:150px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#3b4345;">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 12px; line-height: 15px; padding: 5px 0 0;" class="pt-1 pb-0">
+                                        <a style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; line-height: 15px; text-decoration: none; color: #838e92;" href="https://www.asadventure.com/en/c/women/beachwear/swimsuits.html" _label="rij8_badpakken_badmode_prodcat_dms" target="_blank" class="fontS">PRODUCTS IN THE SPOTLIGHT</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-size: 24px; line-height: 28px; padding: 0 0 30px 0" class="pb-3">
+                                        <span style="font-family: Georgia, serif; font-size: 24px; line-height: 28px; text-decoration: none; color: #3b4345;" class="fontL">Splish splash!</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <!-- ************ Kolom 1 ************ -->
+                                    <td width="30%" valign="bottom">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="center" width="100%" style="border:1px solid #ffffff;">
+                                                    <a href="https://www.asadventure.com/en/c/women/beachwear/swimsuits.html" _label="rij8a_badpakken_badmode_prodcat_dms" target="_blank">
+                                                        <img src="images/rij21_l.jpg" alt="Badpakken" width="180" style="width:180px;display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FF6900;border:0;background-color:#ebebeb;" class="width_mobile">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" width="100%" style="font-size: 14px; line-height: 18px; border:1px solid #ffffff;">
+                                                    <a href="https://www.asadventure.com/en/c/women/beachwear/swimsuits.html" _label="rij8acta_badpakken_badmode_prodcat_dms" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #838e92;">Swimsuits</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <!-- ************ Spacer ************ -->
+                                    <td width="5%" height="1" style="font-size:0px;line-height:0px;" class="hide_mobile">&nbsp;</td>
+                                    <!-- ************ Kolom 2 ************ -->
+                                    <td width="30%" valign="bottom">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="center" width="100%" style="border:1px solid #ffffff;">
+                                                    <a href="https://www.asadventure.com/en/c/women/beachwear/bikinis.html" _label="rij8b_bikinis_badmode_prodcat_dms" target="_blank">
+                                                        <img src="images/rij21_m.jpg" alt="Bikini&rsquo;s" width="180" style="width:180px;display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FF6900;border:0;background-color:#ebebeb;"
+                                                            class="width_mobile">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" width="100%" style="font-size: 14px; line-height: 18px; border:1px solid #ffffff;">
+                                                    <a href="https://www.asadventure.com/en/c/women/beachwear/bikinis.html" _label="rij8bcta_bikinis_badmode_prodcat_dms" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #838e92;">Bikinis</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <!-- ************ Spacer ************ -->
+                                    <td width="5%" height="1" style="font-size:0px;line-height:0px;" class="hide_mobile">&nbsp;</td>
+                                    <!-- ************ Kolom 3 ************ -->
+                                    <td width="30%" valign="bottom">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="center" width="100%" style="border:1px solid #ffffff;">
+                                                    <a href="https://www.asadventure.com/en/c/men/beachwear/swim-shorts.html" _label="rij8c_zwemshorts_badmode_prodcat_hrn" target="_blank">
+                                                        <img src="images/rij21_r.jpg" alt="Zwemshorts" width="180" style="width:180px;display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FF6900;border:0;background-color:#ebebeb;"
+                                                            class="width_mobile">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" width="100%" style="font-size: 14px; line-height: 18px; border:1px solid #ffffff;">
+                                                    <a href="https://www.asadventure.com/en/c/men/beachwear/swim-shorts.html" _label="rij8ccta_zwemshorts_badmode_prodcat_hrn" target="_blank" style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #838e92;">Swim trunks</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- ======================================== -->
+                            <!-- *************** SEPERATOR ************** -->
+
+                            <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td valign="middle" height="50" class="width_mobile pt-2 pb-0" style="height: 50px;font-family:serif;font-size: 0px; line-height: 0px;">
+                                        <p style="height: 1px;">&nbsp;</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <%@ include view='rc_be_marketing_footernew_been' %>
+</body>
+
+</html>

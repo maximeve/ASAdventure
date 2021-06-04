@@ -1,0 +1,76 @@
+Regardez notre lettre d'information dans toute sa splendeur via votre navigateur web :
+<%@ include view='rc_be_asadventure_personalization_mirror_page' %>
+
+++++++++++++++
+A.S.Adventure
+++++++++++++++
+
+——————————————
+Votre nouveau tapis de plage Roxy
+——————————————
+
+Nouveauté pour passer une journée sur la côte belge ou se détendre dans son jardin : achetez des maillots pour 50 € et recevez un tapis de plage Roxy en cadeau !
+Femme >>
+https://www.asadventure.com/fr/c/promotions/maillots-de-bain.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528dames%2529
+Homme >>
+https://www.asadventure.com/fr/c/promotions/maillots-de-bain.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528heren%2529
+Enfant >>
+https://www.asadventure.com/fr/c/promotions/maillots-de-bain.html?page=0&size=48&filter=%2526filter%253Dbe_type_gender%253A%2528heren_dames_junior%253Bjunior%253Bjongens%253Bmeisjes%2529
+
+Action valable jusqu’au 30/05/2021, dans la limite des stocks disponibles. Non valable sur les vêtements et accessoires de plage. Non cumulable avec d’autres actions.
+
+——————————————
+Rayonnez comme le soleil d'été
+——————————————
+
+Avec votre tapis de plage Roxy sous le bras, vous allez ressentir les vibrations de la plage ! Choisissez vite une tenue assortie et laissez le soleil de l'été vous réchauffer !
+
+Looks pour femme >>
+
+Looks pour homme >>
+
+——————————————
+Comme des poissons dans l'eau
+——————————————
+
+On fait la bombe ? Des maillots dans les couleurs les plus folles, des shorts de bain avec des imprimés estivaux, un chapeau tendance, une noisette de crème solaire sur le nez et voilà : vos enfants sont prêts pour l'été ! 
+
+Looks enfant >>
+
+——————————————
+Roxy : c’est l’heure de la plage
+——————————————
+
+Looks sportifs et audacieux.
+
+Découvrez Roxy >>
+https://www.asadventure.com/fr/marques/roxy.html
+
+——————————————
+Une fête des Pères au vert
+——————————————
+
+Encore du parfum ?! Oubliez les beaux flacons et mettez vos mains sur le guidon. Direction la forêt, sans oublier une carte cadeau d’A.S.Adventure !
+
+Achetez votre carte cadeau >>
+
+——————————————
+L'été à vos pieds
+——————————————
+
+Cet été, vous danserez la samba avec une paire de Havaianas aux pieds ! Ces tongs solides et flexibles existent dans toutes les couleurs dont vous pouvez rêver. 
+
+Vos Havaianas >>
+https://www.asadventure.com/fr/marques/havaianas.html  
+
+——————————————
+Conseils shopping pour l'été
+——————————————
+
+L'été approche, mais vous n'avez toujours pas déniché le bon bikini ou maillot de bain ? Notre équipe est là pour vous conseiller ! Réservez votre séance de shopping personnalisé gratuite, en ligne ou en magasin. 
+
+Prenez rendez-vous sans plus tarder >>
+https://www.asadventure.com/fr/personal-shopping.html 
+
+
+<%@ include view='rc_be_marketing_footernew_befr' %>
